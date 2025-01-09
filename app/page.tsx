@@ -1,22 +1,6 @@
-"use client"
-
-import React, { useEffect } from "react";
-import ScrollReveal from "scrollreveal";
 import Header from '../components/Header';
 
 export default function Home() {
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const sr = ScrollReveal({
-        origin: "bottom",
-        distance: "50px",
-        duration: 1000,
-        delay: 200,
-      });
-
-      sr.reveal(".reveal", { interval: 200 });
-    }
-  }, []);
 
   return (
     <div>
@@ -52,7 +36,7 @@ export default function Home() {
         <section className="about section" id="about">
           <h2 className="section-title">About</h2>
 
-          <div className="about__container bd-grid reveal">
+          <div className="about__container bd-grid ">
             <div className="about__img">
               <img src="images/about.jpeg" alt="" />
             </div>
@@ -71,7 +55,7 @@ export default function Home() {
         <section className="skills section" id="skills">
           <h2 className="section-title">Skills</h2>
 
-          <div className="skills__container bd-grid reveal">
+          <div className="skills__container bd-grid ">
             <div>
               <h2 className="skills__subtitle">Profesional Skills</h2>
               <p className="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
@@ -134,7 +118,7 @@ export default function Home() {
         <section className="work section" id="work">
           <h2 className="section-title">Work</h2>
 
-          <div className="work__container bd-grid reveal">
+          <div className="work__container bd-grid ">
             <a href="" className="work__img">
               <img src="images/work1.jpg" alt="" />
             </a>
@@ -159,7 +143,7 @@ export default function Home() {
         <section className="contact section" id="contact">
           <h2 className="section-title">Contact</h2>
 
-          <div className="contact__container bd-grid reveal">
+          <div className="contact__container bd-grid ">
             <form action="" className="contact__form">
               <input type="text" placeholder="Name" className="contact__input" />
               <input type="mail" placeholder="Email" className="contact__input" />
