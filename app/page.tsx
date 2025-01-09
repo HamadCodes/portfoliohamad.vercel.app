@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
@@ -17,7 +17,7 @@ export default function Home() {
       sr.reveal(".reveal", { interval: 200 });
     }
   }, []);
-  
+
   return (
     <div>
       <Header />
