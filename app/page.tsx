@@ -26,7 +26,7 @@ export default function Home() {
       <main className="l-main">
         <section className="home bd-grid" id="home">
           <div className="home__data">
-            <h1 className="home__title">Hi,<br />I'am <span className="home__title-color">Hamad</span><br /> Web Developer</h1>
+            <h1 className="home__title">Hi,<br />I’am <span className="home__title-color">Hamad</span><br /> Web Developer</h1>
 
             <a href="#contact" className="button">Contact</a>
           </div>
@@ -59,7 +59,7 @@ export default function Home() {
             </div>
 
             <div>
-              <h2 className="about__subtitle">I'am Hamad</h2>
+              <h2 className="about__subtitle">I’am Hamad</h2>
               <p className="about__text">As a Frontend Developer, I specialize in crafting user-friendly, visually engaging interfaces that bridge design and functionality. With experience in HTML, CSS, JavaScript, and Next.js, I excel at building responsive, user-centric applications that align with business goals.
 
                 Collaboration is at the heart of my approach. I enjoy working with cross-functional teams to turn ideas into impactful solutions while prioritizing clean code, performance optimization, and accessibility. Staying current with the latest web trends fuels my creativity and passion for delivering exceptional results.
