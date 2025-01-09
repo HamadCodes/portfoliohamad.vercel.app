@@ -6,19 +6,18 @@ import Header from '../components/Header';
 
 export default function Home() {
   useEffect(() => {
-    // Configure ScrollReveal settings
-    const sr = ScrollReveal({
-      origin: "bottom",
-      distance: "50px",
-      duration: 1000,
-      delay: 200,
-    });
+    if (typeof window !== "undefined") {
+      const sr = ScrollReveal({
+        origin: "bottom",
+        distance: "50px",
+        duration: 1000,
+        delay: 200,
+      });
 
-    // Apply ScrollReveal to elements
-    sr.reveal(".reveal", {
-      interval: 200, // Delay between animations
-    });
+      sr.reveal(".reveal", { interval: 200 });
+    }
   }, []);
+  
   return (
     <div>
       <Header />
